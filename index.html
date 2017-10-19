@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Globophone</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+      .hidden { visibility: hidden; }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-md-4 col-md-offset-4">
+
+    			<h1><u>Welcome to Globophone!</u></h1>
+          <main>
+
+      			<form role="form">
+              <h3>Save your number:</h3>
+
+      				<div class="form-group">
+      					<label for="name-field">
+      						Name
+      					</label>
+      					<input type="text" class="form-control" id="name-field" />
+                <span id="name-error" class="help-block"></span>
+      				</div>
+
+      				<div class="form-group">
+      					<label for="exampleInputPassword1">
+      						Phone Number
+      					</label>
+      					<input type="text" class="form-control" id="phone-field" />
+                <span id="phone-error" class="help-block"></span>
+      				</div>
+
+              <button type="submit" class="btn btn-primary">
+      					Submit
+      				</button>
+
+              <button type="reset" class="btn btn-danger hidden" id="delete">
+      					Delete
+      				</button>
+      			</form>
+
+          </main>
+
+    		</div>
+    	</div>
+    </div>
+
+  </body>
+
+  <script type="text/javascript" src="script.js"></script>
+
+</html>
